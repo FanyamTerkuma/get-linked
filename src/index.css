@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('./assets/ClashDisplay_Complete/Fonts/Variable/ClashDisplay-Variable.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Clash Display', sans-serif;
+}
+
+@layer components {
+  .bg-primary {
+    @apply bg-gradient-to-r from-purple to-pinker
+  }
+}
