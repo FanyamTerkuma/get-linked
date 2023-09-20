@@ -1,9 +1,10 @@
-import { Navbar } from './components';
+import { Hero, Navbar } from './components';
 
 function App() {
     return (
-        <main className=' bg-blue h-[100vh]'>
+        <main className=''>
             <Navbar />
+            <Hero />
         </main>
     );
 }

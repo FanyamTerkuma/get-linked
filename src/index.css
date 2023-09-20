@@ -9,7 +9,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #ffffff;
+  background: #150E28;
 
 }
 
@@ -23,8 +24,10 @@ h1 {
   line-height: normal;
 }
 
+
 @layer components {
   .bg-primary {
     @apply bg-gradient-to-r from-purple to-pinker
   }
+
 }

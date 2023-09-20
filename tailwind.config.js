@@ -8,6 +8,10 @@ export default {
                 purple: '#903AFF',
                 pink: '#D434FE',
                 pinker: '#FE34B9'
+            },
+            fontFamily: {
+                unica: ['Unica One', 'cursive'],
+                montserrat: ['Montserrat', 'sans-serif']
             }
         }
     },
